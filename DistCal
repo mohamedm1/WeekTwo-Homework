@@ -1,0 +1,32 @@
+public class DistCalc {
+
+	public static void main(String[] args) {
+		
+
+		int x1, y1, x2, y2;
+		double d; 
+		
+		// declare the Scanner 
+		
+		Scanner sc = new Scanner (System.in);
+		
+		x1 = sc.nextInt();
+		x2 = sc.nextInt();
+		y1 = sc.nextInt(); 
+		y2 = sc.nextInt(); 
+		
+	// write the Equation now 
+		
+		d = Math.sqrt (Math.pow((x2- x1 ), 2) + Math.pow ((y2 -y1),2));
+		
+		
+		System.out.print("Enter Value for x1 ");
+		System.out.print("Enter value for y1");
+		
+		System.out.print("Enter value for x2");
+		System.out.print("Enter Value for y2 ");
+		
+		System.out.println("DistCalc :" + d);
+	}
+
+}
