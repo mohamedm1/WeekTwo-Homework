@@ -1,0 +1,46 @@
+import java.util.Scanner; 
+
+public class UserNames {
+
+	public static void main(String[] args) {
+	
+		// Declare the variables 
+		
+		String Firstname; 
+		String Lastname; 
+		String UserID; 
+		
+		
+		// Declare the Scanner and random 
+		
+	Scanner sc = new Scanner(System.in); 
+	
+	
+		 
+	// Print out the first name an last name also show the string 
+	
+	 System.out.println("Enter your first name");
+	 
+	
+	 Firstname = sc.nextLine();
+	 
+	 System.out.println(" Enter your last name");
+	
+	 Lastname = sc.nextLine();
+	 
+	
+	 // out put the First name and last name while showing the userId
+	 
+
+	 
+	
+	 
+	int numberGen = 10 + gen.nextInt(89); 
+	 
+	UserID=Lastname.substring(0,4)+Firstname.substring(0,1)+numberGen;
+	
+	System.out.println ("We have worked up a great user ID for you. It's "+UserID+". Enjoy!");
+	
+	}
+
+}
