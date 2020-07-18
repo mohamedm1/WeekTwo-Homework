@@ -1,0 +1,35 @@
+import java.util.Random;
+
+import java.util.Scanner;
+
+public class AgeGuess {
+
+	public static void main(String[] args) {
+		
+		Random gen = new Random();
+		
+		Scanner sc = new Scanner(System.in);
+		
+		String name;
+		
+		int age; 
+		
+		int ageGuess;
+		
+		System.out.print("Enter the name :");
+		
+		name = sc.nextLine();
+		
+		System.out.print("Enter the age:");
+		
+		ageGuess = sc.nextInt();
+		
+		System.out.println("Name is "+ name);
+		
+		System.out.println("Age is " + ageGuess);
+		
+		System.out.println(" Guess age is" + age);
+		
+	}
+
+}
